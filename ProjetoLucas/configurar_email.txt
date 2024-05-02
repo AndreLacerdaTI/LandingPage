@@ -1,0 +1,8 @@
+Criar uma conta no gmail para o site usar, exemplo: no-reply@gmail.com
+
+Criar uma Senha de App:
+No gmail > Gerenciar sua Conta Google > Pesquise por Senhas de app
+Crie uma com o nome do app, exemplo: Flask app
+
+Colocar o codigo no lugar da senha dentro do script do app
+

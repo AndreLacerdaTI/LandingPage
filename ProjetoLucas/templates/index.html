@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Advogado</title>
+</head>
+<body>
+    <div>
+        <button class="botoes-menu" name="menu" value="home">
+            Página inicial
+        </button>
+        <button class="botoes-menu" name="menu" value="index">
+            Sobre nós
+        </button>
+        <button class="botoes-menu" name="menu" value="contato">
+            Contato
+        </button>
+        <button class="botoes-menu" name="menu" value="termos">
+            Politica de privacidade e termos de uso
+        </button>
+    </div>
+    <h1>Enviar E-mail</h1>
+    <form action="/send_email" method="POST">
+        <label for="name">Seu nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="number">Seu número (opcional):</label><br>
+        <input type="tel" id="number" name="number" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"><br><br>
+
+        <label for="subject">Assunto:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Contato por WhatsApp</h1>
+    <p>Clique no botão abaixo para entrar em contato via WhatsApp:</p>
+    <a href="https://wa.me/5548996403377" target="_blank"><button>Contato WhatsApp</button></a>
+
+    <div class="elementor-custom-embed">
+        <iframe loading="lazy" src="https://maps.app.goo.gl/qyw6BBHEjArCsY229" title="DLS Advogados" aria-label="DLS Advogados"></iframe>
+    </div>
+</body>
+</html>
